@@ -1,5 +1,5 @@
 #include <iostream>
-#using namespace std;
+using namespace std;
 
 int main() {
     int n;
@@ -24,5 +24,5 @@ int main() {
         cout << endl;
     }
 
-    return 0;
+Â Â Â Â returnÂ 0;
 }
