@@ -1,5 +1,5 @@
 #include <iostream>
-#using namespace std;
+using namespace std;
 
 void fibonacci(int n) {
     int a = 0, b = 1, nextTerm;
@@ -27,5 +27,5 @@ int main() {
         cout << "Jumlah angka harus lebih besar atau sama dengan 2." << endl;
     }
 
-    return 0;
+Â Â Â Â returnÂ 0;
 }
