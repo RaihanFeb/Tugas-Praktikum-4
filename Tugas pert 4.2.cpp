@@ -11,7 +11,7 @@ int main() {
     // Loop untuk setiap baris
     for (int i = 1; i <= n; ++i) {
         // Loop untuk mencetak spasi
-        for (int i = 1; i <= n - i; ++j) {
+        for (int i = 1; i <= n - i; ++i) {
             cout << " ";
         }
 
