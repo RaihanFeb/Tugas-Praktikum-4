@@ -11,12 +11,12 @@ int main() {
     // Loop untuk setiap baris
     for (int i = 1; i <= n; ++i) {
         // Loop untuk mencetak spasi
-        for (int j = 1; j <= n - i; ++j) {
+        for (int i = 1; i <= n - i; ++j) {
             cout << " ";
         }
 
         // Loop untuk mencetak bintang
-        for (int k = 1; k <= 2 * i - 1; ++k) {
+        for (int i = 1; i <= 2 * i - 1; ++i) {
             cout << "*";
         }
 
