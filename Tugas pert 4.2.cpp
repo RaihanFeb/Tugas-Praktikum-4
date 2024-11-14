@@ -2,27 +2,20 @@
 using namespace std;
 
 int main() {
-    int n;
+    int rows;
 
-    // Meminta input jumlah baris piramida dari pengguna
-    cout << "Masukkan jumlah baris: ";
-    cin >> n;
+    cout << "Masukkan jumlah baris untuk piramida: ";
+    cin >> rows;
 
-    // Loop untuk setiap baris
-    for (int i = 1; i <= n; ++i) {
-        // Loop untuk mencetak spasi
-        for (int i = 1; i <= n - i; ++i) {
+    for (int i = 1; i <= rows; ++i) {
+        for (int j = i; j < rows; ++j) {
             cout << " ";
         }
-
-        // Loop untuk mencetak bintang
-        for (int i = 1; i <= 2 * i - 1; ++i) {
+        for (int k = 1; k <= (2 * i - 1); ++k) {
             cout << "*";
         }
-
-        // Pindah ke baris berikutnya
         cout << endl;
     }
 
-    return 0;
+    return 0;
 }
